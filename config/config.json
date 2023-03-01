@@ -1,12 +1,12 @@
 {
   "site": {
-    "title": "Bigspring Light Nextjs",
+    "title": "Game Brebes Explore - Menjelajahi Brebes didunia game!",
     "base_url": "/",
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
-    "logo_width": "200",
+    "logo_width": "100",
     "logo_height": "48",
-    "logo_text": "Bigspring Light"
+    "logo_text": "Brebes Explore"
   },
 
   "settings": {
@@ -24,13 +24,13 @@
   "params": {
     "contact_form_action": "",
     "tag_manager_id": "",
-    "footer_content": "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.",
-    "copyright": "Designed and Developed By [Themefisher](https://themefisher.com/)"
+    "footer_content": "Game petualangan menjelajahi Kota Brebes berdasarkan dunia nyata.",
+    "copyright": "Copyright &#169; 2023 PT. Inovasi Aktif Indonesia. All Rights Reserved"
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
+    "meta_author": "Rio Susanto",
     "meta_image": "",
-    "meta_description": "A SAAS template for nextjs"
+    "meta_description": "Profil Game Brebes Explore"
   }
 }

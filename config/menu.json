@@ -23,32 +23,15 @@
   ],
   "footer": [
     {
-      "name": "Company",
+      "name": "Information",
       "menu": [
         {
-          "text": "Pricing",
-          "url": "/pricing"
+          "text": "About Us",
+          "url": "/about-us"
         },
         {
-          "text": "Quick Start",
-          "url": "#"
-        }
-      ]
-    },
-    {
-      "name": "Product",
-      "menu": [
-        {
-          "text": "Features",
-          "url": "#"
-        },
-        {
-          "text": "Platform",
-          "url": "#"
-        },
-        {
-          "text": "Pricing",
-          "url": "/pricing"
+          "text": "Contact Us",
+          "url": "/contact-us"
         }
       ]
     },
@@ -61,11 +44,11 @@
         },
         {
           "text": "Privacy Policy",
-          "url": "#"
+          "url": "/privacy-policy"
         },
         {
           "text": "Terms & Conditions",
-          "url": "#"
+          "url": "/term-and-conditions"
         }
       ]
     }

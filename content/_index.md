@@ -1,6 +1,6 @@
 ---
 banner:
-  title: Let us solve your critical website development challenges
+  title: Game petualangan menjelajahi Kota Brebes berdasarkan dunia nyata!
   content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque <br/> totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus
   image: /images/banner-art.svg
   button:
@@ -9,26 +9,26 @@ banner:
 
 # feature
 feature: 
-  title: Something You Need To Know
+  title: Bisa ngapain ajah di Game ini?
   features:
-  - name: "Clean Code"
+  - name: "Alun-alun Brebes"
     icon: "/images/code.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Object Oriented"
+    content: "Tempat untuk kumpul dan santai semua pemain."
+  - name: "Jelajahi Tempat Populer"
     icon: "/images/oop.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "24h Service"
+    content: "Kunjungi tempat-tempat terkenal di Brebes cukup lewat smartphone kamu!"
+  - name: "Semua orang dalam satu server"
     icon: "/images/user-clock.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Value for Money"
+    content: "Bosen main game sendiri? Di Brebes Explore kamu akan bertemu dan berinteraksi dengan semua orang di Brebes loh!"
+  - name: "Jalan bersama pasangan"
     icon: "/images/love.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Faster Response"
+    content: "LDR? Ajak pacar kamu jalan-jalan bersama didalam game yuk!"
+  - name: "Kumpul bareng teman"
     icon: "/images/speedometer.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Cloud Support"
+    content: "Kangen temen sekolah dulu? Reuni ajah disini!"
+  - name: "Dibuat berdasarkan dunia nyata"
     icon: "/images/cloud.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    content: "Rasakan pengalaman bermain game serasa dunia nyata, dengan keakuratan hingga 90%!"
 
 # services
 services:
