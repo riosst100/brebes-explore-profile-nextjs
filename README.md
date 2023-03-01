@@ -1,38 +1,106 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align=center>Bigspring Light Nextjs</h1> 
+<p align=center>Bigspring is a web development business template built in Nextjs. Perfect for Creative Agency, Marketing Agency, Design Studios, Digital Marketing Agencies, and other business service websites.</p>
+<h2 align="center"> <a target="_blank" href="https://bigspring-light-nextjs.vercel.app/" rel="nofollow">Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fbigspring-light-nextjs.vercel.app%2F&form_factor=desktop">Page Speed (100%)</a>
+</h2>
 
-## Getting Started
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+<p align=center>
+  <a href="https://github.com/vercel/next.js/releases/tag/v13.0.6" alt="Contributors">
+    <img src="https://img.shields.io/static/v1?label=NEXTJS&message=13.0&color=000&logo=nextjs" />
+  </a>
+
+  <a href="https://github.com/themefisher/bigspring-light-nextjs/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/themefisher/bigspring-light-nextjs" alt="license"></a>
+
+  <img src="https://img.shields.io/github/languages/code-size/themefisher/bigspring-light-nextjs" alt="code size">
+
+  <a href="https://github.com/themefisher/bigspring-light-nextjs/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/themefisher/bigspring-light-nextjs" alt="contributors"></a>
+</p>
+
+![bigspring-light](https://demo.gethugothemes.com/thumbnails/bigspring-light.png)
+👉🏻[View Live Preview](https://bigspring-light-nextjs.vercel.app/)
+
+<!-- download -->
+## Download
+
+Download this template from [Github](https://github.com/themefisher/bigspring-light-nextjs/archive/main.zip)
+
+## Key Features
+- Simple and Minimal
+- Fully Responsive
+- Google Page Speed score 100! (Desktop)
+- Google analytics support
+- Caching enabled
+- Supports Contact Form
+- SEO Friendly
+<!-- installation -->
+## Installation
+
+After downloading the template, you have some prerequisites to install. Then you can run it on your localhost. You can view the package.json file to see which scripts are included.
+
+### Install prerequisites (once for a machine)
+
+* **Node Installation:** [Install node js](https://nodejs.org/en/download/) [Recommended LTS version]
+
+### Local setup
+
+After successfully installing those dependencies, open this template with any IDE [[VS Code](https://code.visualstudio.com/) recommended], and then open the internal terminal of IDM [vs code shortcut <code>ctrl/cmd+\`</code>]
+
+* Install dependencies
+
+```
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* Run locally
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+npm run dev
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+After that, it will open up a preview of the template in your default browser, watch for changes to source files, and live-reload the browser when changes are saved.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Production Build
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+After finishing all the customization, you can create a production build by running this command.
 
-## Learn More
+```
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+<!-- reporting issue -->
+## Reporting Issues
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+We use GitHub Issues as the official bug tracker for this Template. Please Search [existing issues](https://github.com/themefisher/bigspring-light-nextjs/issues). It’s possible someone has already reported the same problem.
+If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/themefisher/bigspring-light-nextjs/issues).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<!-- support -->
+## Technical Support or Questions (Paid)
 
-## Deploy on Vercel
+If you have questions or need help integrating the product please [contact us](https://themefisher.com/contact) instead of opening an issue.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<!-- licence -->
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
+
+**Code License:** Released under the [MIT](https://github.com/themefisher/bigspring-light-nextjs/blob/main/LICENSE) license.
+
+**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
+
+## Hire Us
+
+Besides developing unique, blazing-fast Nextjs templates, we also provide customized services. We specialize in creating affordable, high-quality static websites based on Nextjs.
+
+If you need to customize the theme or complete website development from scratch, you can hire us. **Check Our
+[Contact Page](https://themefisher.com/contact)**
+
+## Nextjs Templates By Us
+
+<a href="https://themefisher.com/products/bookworm-light-nextjs">
+<img src="https://demo.gethugothemes.com/thumbnails/bookworm.png" height="300" width="400"/>
+<p>Bookworm Light Nextjs</p>
+</a>
+
