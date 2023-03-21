@@ -16,11 +16,17 @@ const Home = ({ frontmatter }) => {
   return (
     <Base title={title}>
       {/* Banner */}
-      <section className="section pb-[50px]">
+      <section className="section pb-[50px]" style={
+        {
+          "backgroundColor": "#1e2334"
+        }
+      }>
         <div className="container">
           <div className="row text-center">
             <div className="mx-auto lg:col-10">
-              <h1 className="font-primary font-bold">{banner.title}</h1>
+              <h3 className="font-primary font-bold" style={{
+                "color":"white"
+              }}>{banner.title}</h3>
               <p className="mt-4">{markdownify(banner.content)}</p>
               {banner.button.enable && (
                 <Link
