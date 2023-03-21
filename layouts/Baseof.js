@@ -13,6 +13,7 @@ const Base = ({
   noindex,
   canonical,
   children,
+  isHomepage
 }) => {
   const { meta_image, meta_author, meta_description } = config.metadata;
   const { base_url } = config.site;
@@ -89,9 +90,13 @@ const Base = ({
         />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <Header />
+      <Header isHomepage={isHomepage} />
       {/* main site */}
-      <main>{children}</main>
+      <main style={
+        {
+          "paddingTop": !isHomepage ? "63px" : "0px"
+        }
+      }>{children}</main>
       <Footer />
     </>
   );

@@ -29,7 +29,7 @@ const Document = () => {
         />
       </Head>
       <body>
-        <Main className="main"/>
+        <Main />
         {/* <TwSizeIndicator /> */}
         <NextScript />
       </body>

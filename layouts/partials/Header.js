@@ -3,10 +3,10 @@ import config from "@config/config.json";
 import menu from "@config/menu.json";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
-const Header = () => {
+const Header = ({isHomepage}) => {
   //router
   const router = useRouter();
 
@@ -20,8 +20,29 @@ const Header = () => {
   const { logo } = config.site;
   const { enable, label, link } = config.nav_button;
 
+  const [opacity, setOpacity] = useState(0);
+
+  useEffect(()=>{
+    const scroll = (event) => {
+      const rawOpacity = Math.round(window.scrollY);
+
+      if (rawOpacity <= 0) {
+        setOpacity(0);
+      } else if (rawOpacity >= 95) {
+        setOpacity(95);
+      } else {
+        setOpacity(rawOpacity);
+      }
+    }
+    window.addEventListener("scroll", scroll, false);
+
+    return () => window.removeEventListener("scroll", scroll, false);
+  },[]);
+
   return (
-    <header className="header">
+    <header className="header" style={{
+      "backgroundColor": "rgb(30 35 52 / " + (!isHomepage ? 95 : opacity) + "%)"
+    }}>
       <nav className="navbar container">
         {/* logo */}
         <div className="order-0">
@@ -111,7 +132,7 @@ const Header = () => {
         </div>
         {enable && (
           <div className="d-flex order-1 ml-auto hidden min-w-[200px] items-center justify-end md:ml-0 md:flex md:order-2">
-            <Link className="z-0 py-[14px]" href={link} rel="">
+            <Link href={link} rel="">
             <Image
               width="120"
               height="120"

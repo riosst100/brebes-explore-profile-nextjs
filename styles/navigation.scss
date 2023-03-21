@@ -40,9 +40,23 @@
 }
 
 .nav-link {
-  @apply py-3 px-2 font-primary text-base font-bold text-dark transition hover:text-primary md:py-4 lg:px-3;
+  padding-top: 0.75rem;
+  padding-bottom: 0.45rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  --tw-text-opacity: 1;
+  color: white;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 
-  &-active {
-    @apply text-primary;
+  &-active,&:hover {
+    border-bottom: 3px solid #00a1ff;
+    color: #00a1ff;
   }
 }

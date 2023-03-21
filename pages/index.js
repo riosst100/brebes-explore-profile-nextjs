@@ -14,11 +14,15 @@ const Home = ({ frontmatter }) => {
   const { title } = config.site;
 
   return (
-    <Base title={title}>
+    <Base title={title} isHomepage={true}>
       {/* Banner */}
       <section className="section pb-[50px]" style={
         {
-          "backgroundColor": "#1e2334"
+          "paddingTop": "100px",
+          "backgroundColor": "#1e2334",
+          "background": "url('/images/bg.png')",
+          "backgroundSize": "cover",
+          "backgroundRepeat": "no-repeat"
         }
       }>
         <div className="container">
