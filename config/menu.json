@@ -1,24 +1,24 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "Beranda",
       "url": "/"
     },
     {
-      "name": "Blog",
-      "url": "/blogs"
+      "name": "Fitur",
+      "url": "/features"
     },
     {
-      "name": "Pricing",
-      "url": "/pricing"
+      "name": "Top Up Koin",
+      "url": "/buy-coin"
     },
     {
-      "name": "Contact",
+      "name": "Artikel",
+      "url": "/blog"
+    },
+    {
+      "name": "Kontak",
       "url": "/contact"
-    },
-    {
-      "name": "FAQ",
-      "url": "/faq"
     }
   ],
   "footer": [

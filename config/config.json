@@ -1,11 +1,11 @@
 {
   "site": {
-    "title": "Game Brebes Explore - Menjelajahi Brebes didunia game!",
+    "title": "Brebes Explore - Game petualangan menjelajahi Kota Brebes berdasarkan dunia nyata!",
     "base_url": "/",
     "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
-    "logo_width": "100",
-    "logo_height": "48",
+    "logo": "/images/brebes_explore.png",
+    "logo_width": "30",
+    "logo_height": "30",
     "logo_text": "Brebes Explore"
   },
 
@@ -24,7 +24,7 @@
   "params": {
     "contact_form_action": "",
     "tag_manager_id": "",
-    "footer_content": "Game petualangan menjelajahi Kota Brebes berdasarkan dunia nyata.",
+    "footer_content": "Game petualangan menjelajahi Kota Brebes berdasarkan dunia nyata!",
     "copyright": "Copyright &#169; 2023 PT. Inovasi Aktif Indonesia. All Rights Reserved"
   },
 

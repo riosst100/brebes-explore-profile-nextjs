@@ -4,6 +4,7 @@ import menu from "@config/menu.json";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useState } from "react";
+import Image from "next/image";
 
 const Header = () => {
   //router
@@ -110,8 +111,14 @@ const Header = () => {
         </div>
         {enable && (
           <div className="d-flex order-1 ml-auto hidden min-w-[200px] items-center justify-end md:ml-0 md:flex md:order-2">
-            <Link className="btn btn-primary z-0 py-[14px]" href={link} rel="">
-              {label}
+            <Link className="z-0 py-[14px]" href={link} rel="">
+            <Image
+              width="120"
+              height="120"
+              src="/images/google-play-badge.png"
+              alt="Dapatkan di Google Play"
+              priority
+            />
             </Link>
           </div>
         )}
