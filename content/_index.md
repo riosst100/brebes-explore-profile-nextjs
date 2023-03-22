@@ -1,7 +1,7 @@
 ---
 banner:
   title: Game petualangan menjelajahi Kota Brebes!
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque <br/> totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus
+  content: Di game ini kamu bisa menjelajahi kota Brebes dan bertemu dengan pemain lain. Ajak temanmu mabar sekarang juga! <br/> Sudah tersedia di Google Play Store! Install sekarang juga!
   image: /images/banner-art.svg
   button:
     label: "Contact Us"

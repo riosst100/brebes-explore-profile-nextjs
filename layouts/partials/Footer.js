@@ -36,15 +36,16 @@ const Footer = () => {
           })}
           {/* social icons */}
           <div className="md-12 sm:col-6 lg:col-3">
-            <Link href="/" aria-label="Bigspring">
+            {markdownify("Developed By", "p", "mb-3")}
+            <Link href="/">
               <Image
-                src={config.site.logo}
-                width="60"
-                height="60"
+                src="/images/inovasiaktif_logo_text_white.png"
+                width="150"
+                height="150"
                 alt=""
               />
             </Link>
-            {markdownify(footer_content, "p", "mt-3 mb-6")}
+            <span style={{"color":"#b5b5b5"}}>{markdownify("Desa Tiwulandu, Kec. Banjarharjo, Kabupaten Brebes", "p", "text-sm mt-2 mb-6")}</span>
             <Social source={social} className="social-icons mb-8" />
           </div>
         </div>
