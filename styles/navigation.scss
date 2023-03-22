@@ -56,7 +56,6 @@
   transition-duration: 150ms;
 
   &-active,&:hover {
-    border-bottom: 3px solid #00a1ff;
-    color: #00a1ff;
+    @apply text-primary
   }
 }
