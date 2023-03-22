@@ -28,8 +28,8 @@ const Header = ({isHomepage}) => {
 
       if (rawOpacity <= 0) {
         setOpacity(0);
-      } else if (rawOpacity >= 95) {
-        setOpacity(95);
+      } else if (rawOpacity >= 100) {
+        setOpacity(100);
       } else {
         setOpacity(rawOpacity);
       }
@@ -41,7 +41,7 @@ const Header = ({isHomepage}) => {
 
   return (
     <header className="header" style={{
-      "backgroundColor": "rgb(10 17 27 / " + (!isHomepage ? 95 : opacity) + "%)"
+      "backgroundColor": "rgb(10 17 27 / " + (!isHomepage ? 100 : opacity) + "%)"
     }}>
       <nav className="navbar container">
         {/* logo */}

@@ -1,20 +1,11 @@
-import config from "@config/config.json";
 import Base from "@layouts/Baseof";
-import Cta from "@layouts/components/Cta";
 import { markdownify } from "@lib/utils/textConverter";
 import Image from "next/image";
 import Link from "next/link";
-import { Autoplay, Pagination } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/swiper.min.css";
-import { getListPage } from "../lib/contentParser";
 
-const BuyCoinPage = ({ frontmatter }) => {
-  const { banner, feature, services, workflow, call_to_action } = frontmatter;
-  const { title } = config.site;
-
+const AboutUsPage = () => {
   return (
-    <Base title={title}>
+    <Base title="Tentang Kami">
       <section className="section">
         <div className="container">
           <div className="flex h-[40vh] items-center justify-center">
@@ -38,14 +29,4 @@ const BuyCoinPage = ({ frontmatter }) => {
   );
 };
 
-export const getStaticProps = async () => {
-  const homePage = await getListPage("content/_index.md");
-  const { frontmatter } = homePage;
-  return {
-    props: {
-      frontmatter,
-    },
-  };
-};
-
-export default BuyCoinPage;
+export default AboutUsPage;

@@ -37,7 +37,7 @@ const Footer = () => {
           {/* social icons */}
           <div className="md-12 sm:col-6 lg:col-3">
             {markdownify("Developed By", "p", "mb-3")}
-            <Link href="/">
+            <Link href="https://inovasiaktif.com/?source=brebesexplore_footer">
               <Image
                 src="/images/inovasiaktif_logo_text_white.png"
                 width="150"

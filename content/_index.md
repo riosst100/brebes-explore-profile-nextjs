@@ -82,11 +82,11 @@ workflow:
 
 # call_to_action
 call_to_action:
-  title: Ready to get started?
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.
+  title: Butuh Bantuan?
+  content: Hubungi kami jika kamu mengalami masalah dalam game, menemukan bug, ingin memberi masukan atau hal lainnya. Kami sangat terbuka untuk menerima pesan dari kamu.
   image: '/images/cta.svg'
   button:
     enable: true
-    label: "Contact Us"
+    label: "Hubungi Kami"
     link: "/contact"
 ---
