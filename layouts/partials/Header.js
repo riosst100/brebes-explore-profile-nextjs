@@ -132,7 +132,7 @@ const Header = ({isHomepage}) => {
         </div>
         {enable && (
           <div className="d-flex order-1 ml-auto hidden min-w-[200px] items-center justify-end md:ml-0 md:flex md:order-2">
-            <Link href={link} rel="">
+            <Link href="https://play.google.com/store/apps/details?id=com.inovasiaktif.brebesexplore" rel="">
             <Image
               width="120"
               height="120"

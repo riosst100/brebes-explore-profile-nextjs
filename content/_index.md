@@ -2,33 +2,21 @@
 banner:
   title: Game petualangan menjelajahi Kota Brebes!
   content: Di game ini kamu bisa menjelajahi kota Brebes dan bertemu dengan pemain lain. Ajak temanmu mabar sekarang juga! <br/> Sudah tersedia di Google Play Store! Install sekarang juga!
-  image: /images/banner-art.svg
+  image: /images/homepage-banner.png
   button:
     label: "Contact Us"
     link: "/contact"
 
 # feature
 feature: 
-  title: Bisa ngapain ajah di Game ini?
+  title: Fitur Utama Game
   features:
-  - name: "Alun-alun Brebes"
-    icon: "/images/code.svg"
-    content: "Tempat untuk kumpul dan santai semua pemain."
   - name: "Jelajahi Tempat Populer"
     icon: "/images/oop.svg"
     content: "Kunjungi tempat-tempat terkenal di Brebes cukup lewat smartphone kamu!"
-  - name: "Semua orang dalam satu server"
+  - name: "Multiplayer"
     icon: "/images/user-clock.svg"
-    content: "Bosen main game sendiri? Di Brebes Explore kamu akan bertemu dan berinteraksi dengan semua orang di Brebes loh!"
-  - name: "Jalan bersama pasangan"
-    icon: "/images/love.svg"
-    content: "LDR? Ajak pacar kamu jalan-jalan bersama didalam game yuk!"
-  - name: "Kumpul bareng teman"
-    icon: "/images/speedometer.svg"
-    content: "Kangen temen sekolah dulu? Reuni ajah disini!"
-  - name: "Dibuat berdasarkan dunia nyata"
-    icon: "/images/cloud.svg"
-    content: "Rasakan pengalaman bermain game serasa dunia nyata, dengan keakuratan hingga 90%!"
+    content: "Bosen main game sendiri? Di Brebes Explore kamu akan bertemu dan berinteraksi dengan semua pemain!"
 
 # services
 services:
